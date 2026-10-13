@@ -4,11 +4,25 @@ Aplicación de escritorio sencilla para registrar textos o tareas y consultarlos
 
 ## Capturas de pantalla
 
-| Inicio | Tareas registradas | Validación de entrada vacía |
-|---|---|---|
-| ![Lista vacía](docs/capturas/01-lista-vacia.jpg) | ![Tres tareas registradas](docs/capturas/02-tareas-registradas.jpg) | ![Aviso al intentar añadir una tarea vacía](docs/capturas/03-validacion.jpg) |
+Las imágenes muestran una secuencia real de la aplicación JavaFX, capturada directamente de su interfaz en PNG y sin cursor.
 
-Las capturas muestran la aplicación JavaFX en ejecución en Windows.
+### 1. Escribir una tarea
+
+Hay dos tareas guardadas y se ha escrito una tercera, todavía pendiente de añadir.
+
+![Tercera tarea escrita, con dos tareas guardadas](docs/capturas/entrada.png)
+
+### 2. Guardar y continuar
+
+La nueva tarea aparece en la lista, el contador pasa de 2 a 3 y el campo queda vacío y enfocado para la siguiente entrada.
+
+![Tres tareas guardadas y campo listo para otra entrada](docs/capturas/guardada.png)
+
+### 3. Rechazar una entrada sin texto
+
+Tras intentar añadir únicamente espacios, aparece un aviso y el contador permanece en 3 tareas.
+
+![Aviso de validación sin añadir una cuarta tarea](docs/capturas/validacion.png)
 
 ## Requisitos
 
