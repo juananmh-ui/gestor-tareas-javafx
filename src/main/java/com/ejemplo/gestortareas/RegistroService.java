@@ -3,19 +3,9 @@ package com.ejemplo.gestortareas;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Gestiona los elementos registrados y concentra sus reglas de validación.
- */
 public final class RegistroService {
 
     private final List<String> elementos = new ArrayList<>();
-
-    /**
-     * Añade un texto no vacío a la lista, eliminando espacios exteriores.
-     *
-     * @param texto texto introducido por el usuario; puede ser {@code null}
-     * @return {@code true} si el elemento fue añadido; {@code false} si no era válido
-     */
     public boolean agregar(String texto) {
         if (texto == null) {
             return false;
