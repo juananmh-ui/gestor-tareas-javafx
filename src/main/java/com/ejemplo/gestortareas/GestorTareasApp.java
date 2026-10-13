@@ -27,9 +27,6 @@ import javafx.scene.layout.StackPane;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
-/**
- * Aplicación JavaFX para registrar y consultar tareas durante la sesión actual.
- */
 public final class GestorTareasApp extends Application {
 
     static final String TITULO_VENTANA = "Gestor de tareas";
